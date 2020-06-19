@@ -1,0 +1,9 @@
+.notes {
+  margin-top: 5vh;
+  margin-bottom: 5vh;
+}
+
+.backdrop {
+  z-index: 9999;
+  color: #fff;
+}

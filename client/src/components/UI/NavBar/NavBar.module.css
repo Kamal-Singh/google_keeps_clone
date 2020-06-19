@@ -1,0 +1,15 @@
+@media (max-width: 600px) {
+  .logo {
+    width: 75%;
+    text-align: center;
+  }
+}
+
+.red {
+  margin-top: 0;
+  padding-left: 10%;
+  padding-top: 5%;
+  line-height: inherit;
+  background: #ee6e73;
+  color: white;
+}

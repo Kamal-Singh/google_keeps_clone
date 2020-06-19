@@ -1,0 +1,42 @@
+.data_grid {
+  margin-top: 30px;
+  padding: 0;
+}
+
+.data_card {
+  padding: 10px;
+  max-width: 500px;
+  width: 500px;
+}
+
+.data_card h3 {
+  text-align: center;
+}
+.show {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+  max-height: 150px;
+  overflow: scroll;
+  overflow-x: scroll;
+}
+
+::-webkit-scrollbar:horizontal {
+  width: 2px; /* Remove scrollbar space */
+  background: transparent; /* Optional: just make scrollbar invisible */
+}
+::-webkit-scrollbar {
+  width: 2px; /* Remove scrollbar space */
+  background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #282828;
+}
+
+@media (max-width: 500px) {
+  .data_card {
+    max-width: 100vw;
+  }
+}

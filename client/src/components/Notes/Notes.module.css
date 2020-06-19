@@ -1,0 +1,27 @@
+.card {
+  position: relative;
+  margin-top: 20px;
+  min-width: 250px;
+  min-height: 300px;
+  max-width: 250px;
+  max-height: 300px;
+  padding: 20px 10px 10px 10px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.card:hover {
+  cursor: pointer;
+}
+
+.card h4 {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  text-align: center;
+  padding-bottom: 10px;
+  border-bottom: 1px solid #ccc;
+}
